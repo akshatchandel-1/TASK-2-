@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1> My Blog</h1>
+    </header>
+
+    <div class="container">
+        <div class="blog-post">
+            <h2>Sample Blog Post</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel nisi nec leo tristique dignissim. Curabitur id fermentum nunc. Integer dictum, eros ut pharetra tincidunt, eros ligula vehicula eros, vitae vehicula purus ex eget eros.</p>
+        </div>
+
+        <div class="comments-section">
+            <h3>Comments</h3>
+            <div id="comments">
+                <!-- Comments will appear here -->
+            </div>
+
+            <div class="add-comment">
+                <textarea id="commentInput" rows="4" placeholder="Add a comment..."></textarea>
+                <button onclick="addComment()">Post Comment</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
